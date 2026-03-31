@@ -1,4 +1,8 @@
-# AI-Projects-Portfolio
+# AI Projects Portfolio
+
+Architecture, design decisions, and code patterns from my AI projects. Source code is in private repositories — this repo showcases the thinking behind the systems.
+
+---
 
 ## Projects
 
