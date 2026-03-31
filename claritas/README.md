@@ -82,6 +82,8 @@ This isn't a generic document analyzer. The platform ships with default template
 | Team | Skills, retention risk, key person dependencies | Cultural and capability fit |
 | Compliance | Regulatory, licensing, audit history | Deal-breaker territory |
 
+> **Battle-tested:** The default template (8 categories, 57+ items) was derived from real IT due diligence I led at Cigna Insurance (regional TPA acquisition) and Zurich Insurance (retail insurance company acquisition across 5 countries, $50M revenue).
+
 Each item has a risk scoring framework. The AI analysis augments human judgment — it doesn't replace it.
 
 ## What I Learned
