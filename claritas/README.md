@@ -2,7 +2,7 @@
 
 ## The Problem
 
-IT due diligence in M&A is a structured but labor-intensive process. You're assessing a target company across 57+ items in 8 categories: infrastructure, security, applications, DevOps, architecture, data, team, and compliance. Each item needs investigation, documentation, risk scoring, and follow-up.
+IT due diligence in M&A is a structured but labor-intensive process. You're assessing a target company across dozens of items spanning infrastructure, security, applications, DevOps, architecture, data, team, and compliance. Each item needs investigation, documentation, risk scoring, and follow-up.
 
 I've led this process multiple times — at Cigna Insurance (TPA acquisition) and Zurich Insurance (retail insurance company acquisition). The assessment framework lives in spreadsheets. Analysis is manual. Insights are inconsistent across assessors. Follow-ups get lost.
 
@@ -10,7 +10,7 @@ I've led this process multiple times — at Cigna Insurance (TPA acquisition) an
 
 I built a structured tracking platform with multi-provider AI analysis. The tool digitizes the DD workflow I've used in real acquisitions and adds AI-assisted analysis at key points:
 
-- **Structured assessment** — 57+ items organized by category, each with status tracking, comments, and risk flags
+- **Structured assessment** — Configurable categories and items, each with status tracking, comments, and risk flags
 - **AI analysis** — Responses can be analyzed by AI (Gemini, Groq, or Mistral) for completeness, red flags, and suggested follow-up questions
 - **Multi-provider abstraction** — Swap LLM providers without changing application code. Useful when comparing model quality or managing API costs.
 
@@ -19,7 +19,7 @@ I built a structured tracking platform with multi-provider AI analysis. The tool
 ```mermaid
 graph TD
     subgraph User Interface
-        Dashboard[DD Dashboard<br/>8 categories, 57+ items]
+        Dashboard[DD Dashboard<br/>Custom categories & items]
         Detail[Item Detail View<br/>Comments, clarifications, AI analysis]
     end
 
@@ -69,7 +69,7 @@ const analysis = await provider.analyze(itemContext);
 
 ## Domain Expertise Driving Product Design
 
-This isn't a generic document analyzer. The 8 categories and 57+ items come directly from IT DD frameworks I've used:
+This isn't a generic document analyzer. The platform ships with default templates drawn from IT DD frameworks I've used in real acquisitions. Categories and items are fully configurable per project. Example default categories:
 
 | Category | What We Assess | Why It Matters |
 |----------|---------------|----------------|

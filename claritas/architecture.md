@@ -5,7 +5,7 @@
 ```mermaid
 graph TD
     subgraph User Interface
-        Dash[Dashboard<br/>8 categories, 57+ items]
+        Dash[Dashboard<br/>Custom categories & items]
         Detail[Item Detail<br/>Comments, AI analysis]
         Config[Settings<br/>Provider config, API keys]
     end
@@ -70,7 +70,7 @@ graph TD
     Status --> AI
 ```
 
-This framework comes from real IT due diligence I've led at Cigna Insurance (TPA acquisition) and Zurich Insurance (retail insurance acquisition). The 57+ items and 8 categories are battle-tested, not theoretical.
+The category and item structure is fully configurable per project. The default templates are informed by real IT due diligence I've led at Cigna Insurance (TPA acquisition) and Zurich Insurance (retail insurance acquisition).
 
 ## Multi-Provider AI Abstraction
 
@@ -135,7 +135,7 @@ erDiagram
 
     CATEGORY {
         string id PK
-        string name "8 categories"
+        string name "user-defined"
         int sortOrder
     }
 

@@ -39,7 +39,7 @@ A project management platform built for human-AI collaboration. AI agents connec
 ### 3. Claritas — AI-Assisted Due Diligence
 [Full writeup](./claritas/README.md) | [Architecture](./claritas/architecture.md) | [Code Patterns](./claritas/snippets/)
 
-A domain-specific tool for IT due diligence in M&A transactions. Tracks 57+ assessment items across 8 categories with multi-provider AI analysis.
+A configurable platform for IT due diligence in M&A transactions. Organize assessment items into custom categories, track progress, and apply multi-provider AI analysis.
 
 **Key AI capabilities:**
 - Multi-provider AI abstraction (Gemini, Groq, Mistral) with encrypted API key storage
