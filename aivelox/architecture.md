@@ -74,7 +74,7 @@ graph LR
     subgraph MCP Server - 5 Tools
         T1[aivelox_get_tasks<br/>Read tasks by project/column]
         T2[aivelox_add_task<br/>Create in backlog or rework ONLY]
-        T3[aivelox_update_status<br/>working | waiting | done]
+        T3["aivelox_update_status<br/>working | waiting | done"]
         T4[aivelox_move_to_rework<br/>Flag with reason]
         T5[aivelox_add_note<br/>Comment on any task]
     end
