@@ -168,7 +168,7 @@ graph LR
     end
 
     subgraph Time Decay
-        D[Exponential decay<br/>30-day half-life<br/>score = weight × e^(-λt)]
+        D["Exponential decay<br/>30-day half-life<br/>score = weight · e^(−λt)"]
     end
 
     subgraph Output
